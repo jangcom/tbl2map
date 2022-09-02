@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+#
+# tbl2map settings file
+#
+# Jaewoong Jang (Isotope Science Center, University of Tokyo)
+# 2022-09-02
+#
+inp:
+  data:
+    ws_name: 0  # Worksheet name
+    cols:
+      - Well;B
+      - Content;E
+      - Sample;F
+    # highlight:  # institute;background_color;text_color
+      # - Pos Ctrl;#FF9999;
+      # - Neg Ctrl;#99CCFF;
+    # If one of the image files below having the same base name as the
+    # tabular file, the image will be inserted into the resulting file.
+    img:
+      - png
+      - jpg
+      - bmp
+  path: "%userprofile%/Documents/GitHub/tbl2map/samples"
+  files:
+    # One by one
+    - admin_2022-09-01 09-00-00.xlsx
+    # All at once
+    - /!(?i)admin.*[.]xlsx!regex
+...
