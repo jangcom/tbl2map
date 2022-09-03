@@ -10,5 +10,6 @@ Package | Version | Source
 pyyaml | 6.0 | anaconda
 openpyxl | 3.0.10 | anaconda
 jinja2 | 3.0.3 | anaconda
+pillow | 9.2.0 | anaconda
 numpy | 1.23.2 | pip
 pandas | 1.4.3 | pip
